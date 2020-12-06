@@ -1,0 +1,61 @@
+.login {
+  width: 100%;
+  height: 100%;
+  background-image: url("../../assets/images/login_bg.png");
+  background-size: 100% 100%;
+}
+.login .login-header {
+  display: flex;
+  align-items: center;
+  height: 80px;
+  background: rgba(21, 20, 13, 0.5);
+}
+.login .login-header img {
+  width: 40px;
+  height: 40px;
+  margin: 0 15px 0 50px;
+}
+.login .login-header h1 {
+  font-size: 30px;
+  color: #fff;
+}
+.login .login-content {
+  width: 850px;
+  height: 500px;
+  margin: 50px auto;
+  position: absolute;
+  left: 50%;
+  margin-left: -425px;
+  top: 50%;
+  margin-top: -250px;
+  background-image: url("../../assets/images/login_form.png");
+  background-size: 100% 100%;
+}
+.login .login-content .login-form-container {
+  position: absolute;
+  top: 42px;
+  right: 46px;
+  width: 275px;
+  height: 420px;
+  padding: 0 32px;
+  padding-top: 100px;
+}
+.login .login-content .login-form-container h2 {
+  color: #1890ff;
+  border-bottom: 3px solid #1890ff;
+  font-size: 17px;
+  font-weight: 100;
+  width: 75px;
+  padding-bottom: 5px;
+  margin-bottom: 32px;
+}
+.login .login-content .login-form-container .login-form .login-form-button {
+  margin-top: 24px;
+}
+.login .login-content .login-form-container-left {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  color: #fff;
+}
+/*# sourceMappingURL=login.css.map */
